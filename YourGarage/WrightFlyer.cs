@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace YourGarage
 {
-    public class Watercraft : Vehicle
+    public class WrightFlyer : Aircraft
     {
-        public void Embarking()
-        {
-            Console.WriteLine("Embarking");
-        }
+        public string Identifier { get; set; } = "Wright Flyer";
     }
 }

@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace YourGarage
 {
-    public class Watercraft : Vehicle
+    internal class Ferrari : Car
     {
-        public void Embarking()
-        {
-            Console.WriteLine("Embarking");
-        }
+
     }
 }
